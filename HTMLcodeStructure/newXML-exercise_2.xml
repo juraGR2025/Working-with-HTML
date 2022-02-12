@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<!DOCTYPE library SYSTEM "\DTD_validation.dtd">
+<library>
+ <book_catalog>Приключения</book_catalog>
+        <book id="1" year="2019" issue="original"></book>
+ <author>А.Дюма</author>
+ <title>Д'Артаньян и три мушкетера</title>
+ <publishing>Москва</publishing>
+ <annotation>Краткое описание сюжета</annotation>
+        <book id="2" year="2021" isbn="" issue="tranlsation"></book>
+		
+<book_catalog>Программирование</book_catalog>
+		<book id="2" year="2009" issue="original"></book>
+ <author>Г.Шилдт</author>
+ <title>Полный справочник C#</title>
+ <publishing>Издательский дом "Вильямс"</publishing>
+ <annotation>Справочник по языку C#</annotation>
+
+ <author_catalog> </author_catalog>
+        <author_book> </author_book>
+   
+    <author_book idref="#1">Autor1</author_book>        
+
+</library>

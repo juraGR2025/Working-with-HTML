@@ -1,0 +1,10 @@
+
+<!ELEMENT curriculum (trainingcourse+)>
+<!ELEMENT trainingcourse (Academicdiscipline, LastNameteacher, Name, PatronymicName, Classtime, StartDate, EndDate)> 
+<!ELEMENT Academicdiscipline (#PCDATA)> 
+<!ELEMENT LastNameteacher (#PCDATA)> 
+<!ELEMENT Name (#PCDATA)> 
+<!ELEMENT PatronymicName (#PCDATA)> 
+<!ELEMENT Classtime (#PCDATA)>
+<!ELEMENT StartDate (#PCDATA)>
+<!ELEMENT EndDate (#PCDATA)>

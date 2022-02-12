@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<myns:TimeTable xmlns:myns = "http://www.itmo.ru/xml/lessons">
+<myns2:Sources xmlns:myns2 = "http://www.REC-html5-20141028">
+<myns:curriculum>
+	<myns:trainingcourse id = "a">
+		<myns:Academicdiscipline>Основы технологий разметки (HTML, XML)</myns:Academicdiscipline>
+		<myns:LastNameteacher>Кузьмин</myns:LastNameteacher>
+		<myns:Name>Константин</myns:Name>
+		<myns:PatronymicName>Михайлович</myns:PatronymicName>
+		<myns:Classtime>(начало в 18.30, завершение в 21.50)</myns:Classtime>
+		<myns:StartDate>03.02.2022</myns:StartDate>
+		<myns:EndDate>08.02.2022</myns:EndDate>
+	</myns:trainingcourse>
+	
+	<myns:trainingcourse id = "b">
+		<myns:Academicdiscipline>Разработка Windows-приложений на C#</myns:Academicdiscipline>
+		<myns:LastNameteacher>Смольянинов</myns:LastNameteacher>
+		<myns:Name>Антон</myns:Name>
+		<myns:PatronymicName>Валентинович</myns:PatronymicName>
+		<myns:Classtime>(начало в 18.30, завершение в 21.50)</myns:Classtime>
+		<myns:StartDate>10.01.2022</myns:StartDate>
+		<myns:EndDate>31.01.2022</myns:EndDate>
+	</myns:trainingcourse>
+	<!-- Все остальные курсы. -->
+
+</myns:curriculum>
+<myns2:Standard>http://www.w3.org/TR/2014/REC-html5-20141028/</myns2:Standard>
+</myns2:Sources>
+</myns:TimeTable>

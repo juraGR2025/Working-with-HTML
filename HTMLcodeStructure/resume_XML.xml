@@ -1,0 +1,39 @@
+<xs:element name="resume">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="candidate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Name" type = "xs:string"/>
+            <xs:element name="LastName" type = "xs:string"/>
+            <xs:element name="PatronymicName" type = "xs:string"/>
+            <xs:element name="Age" type = "xs:positiveInteger"/>
+            <xs:element name="WorkPlace" type = "xs:string"/>
+            <xs:element name="Post" type = "xs:string"/> 
+            <xs:element name="DateOfBirth" type = "xs:date"/>
+            <xs:element name="Education" type = "xs:string"/>
+            <xs:element name="Address" type = "xs:string"/>
+			<xs:element name="Phone"/>
+			    <xs:simpleType>
+                   <xs:restriction base="xs:integer">
+                   <xs:pattern value="[0-9][0-9][0-9][0-9][0-9][0-9][0-9]"/>
+                   </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="FamilyStatus"/>
+			<xs:simpleType>
+                <xs:restriction base="xs:string">
+                <xs:enumeration value="Женат"/>
+                <xs:enumeration value="Не женат"/>
+                <xs:enumeration value="Замужем"/>
+			  <xs:enumeration value="Не замужем"/>
+              </xs:restriction>
+            </xs:simpleType>
+            </xs:element>
+            <xs:element name="DesiredSalary" type = "xs:positiveInteger"/> 
+          </xs:sequence>
+        </xs:complexType>   
+      </xs:element>   
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>

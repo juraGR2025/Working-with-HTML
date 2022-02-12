@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<xs:schema xmlns:xs = "lessons-XML.xml">
+
+<curriculum>
+	<trainingcourse id = "a">
+		<Academicdiscipline>Основы технологий разметки (HTML, XML)</Academicdiscipline>
+		<LastNameteacher>Кузьмин</LastNameteacher>
+		<Name>Константин</Name>
+		<PatronymicName>Михайлович</PatronymicName>
+		<Classtime>(начало в 18.30, завершение в 21.50)</Classtime>
+		<StartDate>03.02.2022</StartDate>
+		<EndDate>08.02.2022</EndDate>
+	</trainingcourse>
+	
+	<trainingcourse id = "b">
+		<Academicdiscipline>Разработка Windows-приложений на C#</Academicdiscipline>
+		<LastNameteacher>Смольянинов</LastNameteacher>
+		<Name>Антон</Name>
+		<PatronymicName>Валентинович</PatronymicName>
+		<Classtime>(начало в 18.30, завершение в 21.50)</Classtime>
+		<StartDate>10.01.2022</StartDate>
+		<EndDate>31.01.2022</EndDate>
+	</trainingcourse>
+	<!-- Все остальные курсы. -->
+
+</curriculum>
+</xs:schema>
